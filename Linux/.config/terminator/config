@@ -1,0 +1,72 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+  [[Glints-Houston]]
+    [[[window]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 1920:0
+      maximised = True
+      fullscreen = False
+      size = 1920, 1056
+      title = Glints-Houston
+      last_active_term = 74c38212-4457-440b-b9bf-1adc7fc1c855
+      last_active_window = True
+    [[[main-pane]]]
+      type = HPaned
+      parent = window
+      order = 0
+      position = 954
+      ratio = 0.49817232375979115
+    [[[left-pane]]]
+      type = VPaned
+      parent = main-pane
+      order = 0
+      position = 523
+      ratio = 0.49762131303520457
+    [[[terminal-api-1]]]
+      type = Terminal
+      parent = left-pane
+      order = 0
+      profile = default
+      uuid = 74c38212-4457-440b-b9bf-1adc7fc1c855
+      command = cd /home/fahrul/Desktop/Projects/glints/api/; bash
+    [[[terminal-api-2]]]
+      type = Terminal
+      parent = left-pane
+      order = 1
+      profile = default
+      uuid = fcbb030b-677f-4f8c-8d64-f96e5951cf56
+      command = cd /home/fahrul/Desktop/Projects/glints/api/; bash
+    [[[right-pane]]]
+      type = VPaned
+      parent = main-pane
+      order = 1
+      position = 528
+      ratio = 0.5023786869647955
+    [[[terminal-houston-1]]]
+      type = Terminal
+      parent = right-pane
+      order = 0
+      profile = default
+      uuid = d449d2db-04dc-49eb-ac84-844bb7b140e5
+      command = cd /home/fahrul/Desktop/Projects/glints/houston/; bash
+    [[[terminal-houston-2]]]
+      type = Terminal
+      parent = right-pane
+      order = 1
+      profile = default
+      uuid = 2b5eaa40-bf95-491a-9acc-841e965a086a
+      command = cd /home/fahrul/Desktop/Projects/glints/houston/; bash
+[plugins]
